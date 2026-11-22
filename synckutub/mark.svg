@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560">
+  <!-- SyncKutub mark: an open book under sync arcs. Drawn to match the owner's chosen logo (2026-11-01). -->
+  <defs>
+    <linearGradient id="arc" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#55a8fb"/>
+      <stop offset="1" stop-color="#3473f3"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f97f7"/>
+      <stop offset="1" stop-color="#3a78f3"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84bbfb"/>
+      <stop offset="1" stop-color="#7aa3f8"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round">
+    <!-- outer and middle sync arcs, centred over the book -->
+    <path d="M 58 519 A 339 339 0 1 1 662 519" stroke="url(#arc)" stroke-width="42"/>
+    <path d="M 133 466 A 248 248 0 1 1 587 466" stroke="url(#arc)" stroke-width="42"/>
+    <!-- small arc just above the book -->
+    <path d="M 276 236 Q 360 182 444 236" stroke="#7fb9f8" stroke-width="40"/>
+  </g>
+  <!-- book covers -->
+  <g fill="url(#cover)" stroke="url(#cover)" stroke-width="24" stroke-linejoin="round">
+    <path d="M 202 284 Q 298 288 360 342 L 360 526 Q 300 470 202 466 Z"/>
+    <path d="M 518 284 Q 422 288 360 342 L 360 526 Q 420 470 518 466 Z"/>
+  </g>
+  <!-- pages -->
+  <g fill="url(#page)">
+    <path d="M 231 315 Q 298 324 339 365 L 339 488 Q 292 452 231 437 Z"/>
+    <path d="M 489 315 Q 422 324 381 365 L 381 488 Q 428 452 489 437 Z"/>
+  </g>
+  <!-- spine -->
+  <path d="M 360 352 L 360 526" stroke="#4b8ff6" stroke-width="42"/>
+</svg>
